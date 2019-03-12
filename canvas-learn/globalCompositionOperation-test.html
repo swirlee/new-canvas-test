@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<canvas id="draw" width="600" height="600" style="background-color: #CCCCCC;"></canvas>
+	
+		<script>
+		function draw(){
+			 var canvas=document.getElementById("draw");
+			 if(!canvas||!canvas.getContext) return;
+			 var oContext=canvas.getContext("2d");
+			 oContext.fillStyle="red";
+			 oContext.
+			 oContext.fillRect(10,10,550,550);
+			 oContext.globalCompositeOperation="xor";
+			 oContext.beginPath();
+			 oContext.arc(250,250,230,0,2*Math.PI);
+			 oContext.fill();
+			 canvas.addEventListener()
+		}
+		draw();
+		</script>
+	
+	</body>
+</html>
